@@ -1,5 +1,5 @@
 body {
-  background: #f9e933;
+  background: lavender;
 }
 
 header, main, footer {
@@ -12,23 +12,29 @@ header .container, main .container, footer .container {
 }
 
 header {
-  background: white;
+  background: lavender;
   overflow: auto;
 }
 
 header h1 {
-  float: left;
-  width: 570px;
+  color: blue;
+  width: 100%;
+  text-align: center;
 }
 
 header nav {
-  float: right;
-  width: 285px;
+  width: 100%;
+  text-align: center;
 }
 
 main {
-  background: white;
+  background: lavender;
   overflow: auto;
+  font-family: courier;
+}
+
+main h2{
+  text-align: center;
 }
 
 main .left {
@@ -41,12 +47,18 @@ main .right {
   width: 285px;
 }
 
+.contact{
+  width: 70%;
+  font-size: small;
+  float: right;
+}
+
+.sitemap{
+  width: 30%;
+  font-size: small;
+}
+
 footer .left {
   float: left;
   width: 570px;
-}
-
-footer .sitemap {
-  float: right;
-  width: 285px;
 }

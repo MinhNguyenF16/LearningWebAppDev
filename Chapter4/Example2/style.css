@@ -20,7 +20,6 @@ h1 {
   float: left;
 }
 
-
 header p {
   float: right;
   width: 570px;
@@ -34,7 +33,6 @@ main {
   border-bottom: 1px solid darkslategray;
 }
 
-
 .comment-input {
   float: left;
   width: 285px;
@@ -44,14 +42,32 @@ main {
   margin-bottom: 10px;
 }
 
-.comment-input input {
-  width: 80%;
+.comment-input-1 input {
+  width: 50%;
   height: 30px;
   font-size: 1.2em;
   font-weight: bold;
 }
 
-.comment-input button {
+.comment-input-2 input {
+  width: 50%;
+  height: 30px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.comment-input-1 button {
+  font-weight: bold;
+  padding: 3px;
+  border-radius: 5px;
+  color: ivory;
+  background: olivedrab;
+  cursor: pointer;
+  font-size: 1.5em;
+  margin-left: 5px;
+}
+
+.comment-input-2 button {
   font-weight: bold;
   padding: 3px;
   border-radius: 5px;
@@ -63,7 +79,7 @@ main {
 }
 
 .comments {
-  float: right;
+  float: left;
   width: 570px;
 }
 
@@ -73,6 +89,16 @@ main {
   border-radius: 5px;
 }
 
+.user1 {
+  color: red;
+  font-weight: bold;
+}
+
+.user2 {
+  color: blue;
+  font-weight: bold;
+}
+
 .comments p:nth-child(even) {
     background: lavender;
 }
@@ -80,6 +106,7 @@ main {
 .comments p:nth-child(odd) {
     background: gainsboro;
 }
+
 
 footer {
     font-size: smaller;

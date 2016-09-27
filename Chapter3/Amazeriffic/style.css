@@ -1,64 +1,62 @@
 body {
-  background: lavender;
+  background: #f9e933;
 }
-
+ 
 header, main, footer {
   min-width: 855px;
 }
-
+ 
 header .container, main .container, footer .container {
   max-width: 855px;
   margin: auto;
 }
-
+ 
 header {
-  background: lavender;
+  background: white;
   overflow: auto;
 }
-
-header h1 {
-  color: blue;
-  width: 100%;
-  text-align: center;
+ 
+header h1 { 
+  float: left;
+  width: 570px;
 }
-
+ 
 header nav {
-  width: 100%;
-  text-align: center;
+  float: right;
+  width: 285px;
 }
-
+ 
 main {
-  background: lavender;
+  background: white;
   overflow: auto;
   font-family: courier;
+  padding: 20px;
 }
-
-main h2{
-  text-align: center;
-}
-
+ 
 main .left {
   float: left;
   width: 570px;
 }
-
+ 
 main .right {
   float: right;
   width: 285px;
 }
-
-.contact{
-  width: 70%;
-  font-size: small;
-  float: right;
+ 
+main p:nth-child(even) {
+    background: lavender;
 }
-
-.sitemap{
-  width: 30%;
-  font-size: small;
+ 
+main p:nth-child(odd) {
+    background: lightgray;
 }
-
+ 
 footer .left {
   float: left;
   width: 570px;
+}
+ 
+footer .sitemap {
+  float: right;
+  width: 285px;
 }
